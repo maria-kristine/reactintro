@@ -2,7 +2,7 @@
 import { css } from "@emotion/react";
 import { Link } from "react-router-dom";
 
-const BlogList = ({ blogs, title }) => {
+const BlogList = ({ blogs }) => {
   const styles = {
     blogPriview: css`
       padding: 10px 16px;
